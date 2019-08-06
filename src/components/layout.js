@@ -3,6 +3,7 @@ import "../assets/scss/main.scss";
 
 import Header from "./Header";
 import Footer from "./Footer";
+import TopNav from "./TopNav";
 
 class Template extends React.Component {
     constructor(props) {
@@ -29,7 +30,8 @@ class Template extends React.Component {
 
         return (
             <div className={`body ${this.state.loading}`}>
-                <Header />
+                {/* <Header /> */}
+                <TopNav />
                 {children}
                 <Footer />
             </div>
