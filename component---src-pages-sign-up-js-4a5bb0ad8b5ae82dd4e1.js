@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{199:function(t,n,e){"use strict";e.r(n),e.d(n,"SignUp",function(){return p});var r=e(0),o=e.n(r);var p=function(t){var n,e;function r(){return t.apply(this,arguments)||this}return e=t,(n=r).prototype=Object.create(e.prototype),n.prototype.constructor=n,n.__proto__=e,r.prototype.render=function(){return o.a.createElement("div",null,o.a.createElement("h1",null,"Sign Up"))},r}(r.Component);n.default=p}}]);
+//# sourceMappingURL=component---src-pages-sign-up-js-4a5bb0ad8b5ae82dd4e1.js.map
