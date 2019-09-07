@@ -7,9 +7,9 @@ export class Section1 extends Component {
             <div className="grid-wrapper">
                 <div className="col-6">
                     <header className="major">
-                        <h2>Our Model for Our Structure</h2>
+                        <h2>{this.props.title}</h2>
                     </header>
-                    <p>Insert description here.</p>
+                    <p>{this.props.desc}</p>
                 </div>
                 <div className="col-6">
                     <span className="image fit"><img src={this.props.src} alt="" /></span>

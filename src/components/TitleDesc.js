@@ -4,8 +4,8 @@ export class TitleDesc extends Component {
     render() {
         return (
         <div>
-            <h1 style={titleStyle} >Fund Someone</h1>
-            <h2 style={descStyle}> Search through our catalog of artists and entrepreneurs and become a part of someone's journey in making it big!</h2>
+            <h1 style={titleStyle}>{this.props.title}</h1>
+            <h2 style={descStyle}>{this.props.desc} </h2>
         </div>
         )
     }

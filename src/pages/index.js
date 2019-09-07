@@ -3,26 +3,26 @@ import Helmet from "react-helmet";
 
 import Layout from '../components/layout';
 import Section1 from '../components/Section1';
-import Section2 from '../components/Section2';
+// import Section2 from '../components/Section2';
 import Section3 from '../components/Section3';
 import Section4 from '../components/Section4';
 // import Header from '../components/header';
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import manInBar from '../assets/stockphotos/manInBar.jpg'
+import smilingMan from '../assets/stockphotos/smilingMan.jpg'
+import playingGuitar from '../assets/stockphotos/playingGuitar.jpg'
+import smokeWoman from '../assets/stockphotos/smokeWoman.jpg'
 
 class Homepage extends React.Component {
     render() {
         const siteTitle = "Gatsby Starter - Photon";
-
+        const S3title = "Start Your Journey, or Become a Part of Someone Else's"
         return (
             <Layout>
                 <Helmet title={siteTitle} />
-                <Section1 src={pic01}/>
+                <Section1 title={"Our Model"} src={manInBar}/>
                 {/* <Section2 /> */}
-                <Section3 pic1={pic02} pic2={pic03} pic3={pic04} />
+                <Section3 title ={S3title} pic1={smilingMan} pic2={playingGuitar} pic3={smokeWoman} />
                 <Section4 />
                 {/* Trying to add carousel here */}
                 {/* <div id="myCarousel" class="carousel slide" data-ride="carousel">

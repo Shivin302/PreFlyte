@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+/* eslint-disable */
 export class TopNav extends Component {
     render() {
         return (
@@ -10,7 +10,7 @@ export class TopNav extends Component {
                     <a href="/AboutUs" > About Us </a>
                     <div class="topnav-right">
                     <a href="/OurModel" > Our Model </a>
-                    <a href="/Success" > Success Stories </a>
+                    <a href="/SuccessStories" > Success Stories </a>
                     <a href="/GetFunded" > Get Funded </a>
                     <a href="/FundSomeone" > Fund Someone </a>
                     <a href="/LogIn" > Log In </a>

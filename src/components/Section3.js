@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+/* eslint-disable */
 export class Section3 extends Component {
     render() {
         return (
@@ -14,24 +14,24 @@ export class Section3 extends Component {
 
                 <div className="col-4">
                     <span className="image fit"><img src={this.props.pic1} alt="" /></span>
-                    <h3>Magna feugiat lorem</h3>
-                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                    <h3>{this.props.img1_title}</h3>
+                    <p>{this.props.img1_desc}</p>
                     <ul className="actions">
                         <li><a href="#" className="button">More</a></li>
                     </ul>
                 </div>
                 <div className="col-4">
                     <span className="image fit"><img src={this.props.pic2} alt="" /></span>
-                    <h3>Magna feugiat lorem</h3>
-                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                    <h3>{this.props.img2_title}</h3>
+                    <p>{this.props.img2_desc}</p>
                     <ul className="actions">
                         <li><a href="#" className="button">More</a></li>
                     </ul>
                 </div>
                 <div className="col-4">
                     <span className="image fit"><img src={this.props.pic3} alt="" /></span>
-                    <h3>Magna feugiat lorem</h3>
-                    <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                    <h3>{this.props.img3_title}</h3>
+                    <p>{this.props.img3_desc}</p>
                     <ul className="actions">
                         <li><a href="#" className="button">More</a></li>
                     </ul>

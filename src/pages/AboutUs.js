@@ -1,28 +1,21 @@
 import React, { Component } from 'react'
+import Layout from '../components/layout';
+import Section1 from '../components/Section1';
+import TitleDesc from '../components/TitleDesc';
+import CameronSalehi from '../assets/images/CameronSalehi.jpg'
+import AdamMohiuddin from '../assets/images/AdamMohiuddin.jpg'
+import AmirMohiuddin from '../assets/images/AmirMohiuddin.jpg'
 
 export class AboutUs extends Component {
     render() {
         return (
             <div>
-                <h1>About Us</h1>
-                <div>
-                    <h2>How it all began</h2>
-                </div>
-                <div>
-                    <h2>The Founders</h2>
-                    <div>
-                        <h3>Cameron Salehi</h3>
-                    </div>
-                    <div>
-                        <h3>Adam Mohiuddin</h3>
-                    </div>
-                    <div>
-                        <h3>Amir Mohiuddin</h3>
-                    </div>
-                </div>
-                <div>
-                    <h2>Our Mission</h2>
-                </div>
+                <Layout>
+                    <TitleDesc title={"About Us"} desc={"How it All Began"}/>
+                    <Section1 title={"Cameron Salehi"} src={CameronSalehi} desc = {"The Legend"}/>
+                    <Section1 title={"Adam Mohiuddin"} src={AdamMohiuddin} desc = {"The Legend"}/>
+                    <Section1 title={"Amir Mohiuddin"} src={AmirMohiuddin} desc = {"The Legend"}/>
+                </Layout>
             </div>
         )
     }

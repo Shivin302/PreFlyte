@@ -8,6 +8,7 @@ import smokeWoman from '../assets/stockphotos/smokeWoman.jpg'
 // import pic02 from '../assets/images/pic02.jpg'
 // import pic03 from '../assets/images/pic03.jpg'
 // import pic04 from '../assets/images/pic04.jpg'
+/* eslint-disable */
 
 export class FundSomeone extends Component {
     title1 = "Top Artists of the Week";
@@ -33,7 +34,7 @@ const linkStyle = {
     // width: '30em',
     textAlign: "center",
     fontSize: "1.5em",
-    margin: '0 auto'
+    margin: '30px'
 }
 
 
